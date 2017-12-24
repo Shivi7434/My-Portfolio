@@ -1,0 +1,31 @@
+@media all and (max-height: 280px) {
+.main-body {
+    color: black;
+    width: 700px;
+    height: 300px;
+    padding: 25px;
+    margin: 20px;
+}
+.middle-section {
+    width: 550px;
+    height: 250px;
+}
+.carousel{
+    width: 450px;
+    height: 300px;
+    align-self: auto;
+}
+}
+.skills {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.experience-section {
+    font-family:Arial, Helvetica, sans-serif;
+}
+@media all and (max-height: 280px) {
+
+#dropdown {
+    color: black;
+}    
+
+}    
