@@ -15,6 +15,7 @@
     height: 300px;
     align-self: auto;
 }
+
 }
 .skills {
     font-family: Arial, Helvetica, sans-serif;
@@ -23,9 +24,80 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 @media all and (max-height: 280px) {
-
+.main-body {
+    color: black;
+    width: 700px;
+    height: 200px;
+    padding: 25px;
+    margin: 20px;
+}
 #dropdown {
     color: black;
 }    
 
-}    
+}  
+.side-intro {
+    align-self: left;
+    padding: 25px;
+    vertical-align: top;
+    width: 350px;
+    height: 200px;
+    margin: 25px;
+    display: inline-block;
+
+}
+.skills-section {
+    background-color: white;
+    padding-right: 50px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+
+}
+.center-content {
+    border: 3px solid grey;
+    vertical-align: inline;
+    align-self: center;
+    margin: 25px;
+    display: inline-block;
+}  
+.project-section{
+    vertical-align: top;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
+.project1{
+    width: 450px;
+    height: 380px;
+    border: 2px solid grey;
+    padding: 0px;
+    vertical-align: top;
+    display: inline-block;
+    align-content: center;
+
+}
+.project2{
+    width: 450px;
+    height: 380px;
+    border: 2px solid grey;
+    padding: 0px;
+    vertical-align: top;
+    display: inline-block;
+
+}
+.project3{
+    width: 450px;
+    height: 380px;
+    border: 2px solid grey;
+    padding: 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+.project4{
+    width: 450px;
+    height: 380px;
+    border: 2px solid grey;
+    padding: 0px;
+    vertical-align: top;
+    display: inline-block;
+}

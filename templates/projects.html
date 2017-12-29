@@ -3,12 +3,40 @@
 
     </head>
     <body>
-        <ul>
-            <li>Danger Zones</li>
-            <li>Fat Unicorn: The Poopening</li>
-            <li>My Cohort</li>
-            <li>Certify Me</li>
-            <li>Woof Woof Go!</li>
-        </ul>
+        <div class="container-fluid main-body">
+                {% extends "layout.html" %} {% block content %}    
+                <div class="container-fluid middle-section">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="{{url_for('static', filename='images/3.jpeg')}}" alt="My Image" class="img-responsive">
+                        </div>
+                    </div><hr>   
+                </div>
+                <div class="container-fluid project-section">
+                    <div class="container-fluid project1">
+                        <a href="https://github.com/Shivi7434/Books">Books And Reviews</a>
+                        <img src="{{url_for('static', filename='images/books.jpeg')}}" alt="books" class="img-responsive">
+                        <p>Python Book Library Allows a user to login ,add books and review the books.Also to see the reviews on each book.</p>
+                    </div>
+                    <div class="container-fluid project2">
+                        <a href="https://github.com/Shivi7434/Event-and-Attendees">Event-and-Attendees</a>
+                        <img src="{{url_for('static', filename='images/events.jpg')}}" alt="events" class="img-responsive">
+                        <p>Ruby on Rails Project - Allows a user to login, Create events , see the number attending the events and also discuss about the events through messages.</p>
+                    </div>
+                    <div class="container-fluid project3">
+                        <a href="https://github.com/Shivi7434/Anonymous-Notes">Anonymous Notes</a>
+                        <img src="{{url_for('static', filename='images/notes.jpg')}}" alt="notes" class="img-responsive">
+                        <p>Full MEAN Stack Project Allows a user to add notes and show notes edit and delete notes.</p>
+                    </div>
+                    <div class="container-fluid project4">
+                        <a href="https://github.com/Shivi7434/algorithms">Algorithms</a>
+                        <img src="{{url_for('static', filename='images/algos.jpeg')}}" alt="notes" class="img-responsive">
+                        <p>Some of my practise work for Algorithms.Will keep on updating as I keep practising more</p>
+                    </div>
+
+                </div>
+
+        </div>       
+        {% endblock %}            
     </body>
 </html>
